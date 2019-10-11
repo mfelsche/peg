@@ -80,3 +80,5 @@ class Sequence is Parser
 
   fun error_msg(): String =>
     try _seq(0)?.error_msg() else "an empty sequence" end
+
+  fun sub_parsers(): this->Array[Parser] => _seq

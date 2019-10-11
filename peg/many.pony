@@ -113,3 +113,6 @@ class Many is Parser
       end
       s
     end
+
+  fun element_sub_parser(): Parser => _a
+  fun seperator_sub_parser(): Parser => _sep

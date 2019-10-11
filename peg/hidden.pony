@@ -22,3 +22,6 @@ class Hidden is Parser
     else
       (0, this)
     end
+
+  fun sub_parser(): Parser => _a
+  fun hidden_sub_parser(): Parser => _hide

@@ -18,3 +18,5 @@ class Literal is Parser
     end
 
   fun error_msg(): String => _text
+
+  fun text(): String => _text

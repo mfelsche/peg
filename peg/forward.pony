@@ -24,3 +24,5 @@ class Forward is Parser
   fun complete(): Bool => _a isnt NoParser
 
   fun error_msg(): String => _a.error_msg()
+
+  fun sub_parser(): Parser => _a

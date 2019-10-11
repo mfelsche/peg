@@ -15,3 +15,5 @@ class Skip is Parser
     end
 
   fun error_msg(): String => _a.error_msg()
+
+  fun sub_parser(): Parser => _a

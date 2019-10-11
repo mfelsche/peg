@@ -12,3 +12,5 @@ class Option is Parser
     else
       (0, NotPresent)
     end
+
+  fun sub_parser(): Parser => _a

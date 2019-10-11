@@ -17,3 +17,5 @@ class Not is Parser
     end
 
   fun error_msg(): String => "not to find " + _a.error_msg()
+
+  fun sub_parser(): Parser => _a

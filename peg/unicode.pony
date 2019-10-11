@@ -43,3 +43,5 @@ class UnicodeRange is Parser
         .> append(" and ")
         .> push_utf32(_hi)
     end
+
+  fun range(): (U32, U32) => (_low, _hi)

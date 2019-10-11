@@ -34,3 +34,5 @@ class Choice is Parser
     fail
 
   fun error_msg(): String => try _seq(0)?.error_msg() else "an empty choice" end
+
+  fun choices(): this->Array[Parser] => _seq
